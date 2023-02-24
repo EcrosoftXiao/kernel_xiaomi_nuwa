@@ -570,6 +570,7 @@ static int subsytem_stats_suspend(struct device *dev)
 	int ret;
 	int i;
 
+
 	if (!subsystem_stats_debug_on)
 		return 0;
 
